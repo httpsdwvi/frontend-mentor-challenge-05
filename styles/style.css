@@ -135,9 +135,11 @@ button:hover {
 
 @media (max-width: 500px) {
     html {
+        min-height: 100vh;
         background: url('/images/pattern-background-mobile.svg');
         background-repeat: no-repeat;
         background-size: contain;
+        background-color: var(--pale-blue);
     }
 
     .card,
