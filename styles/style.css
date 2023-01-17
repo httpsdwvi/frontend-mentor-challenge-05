@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --bright-blue-hover: hsl(244, 83%, 68%);
+}
+
+html {
+    background-color: var(--pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 50px;
+}
+
+.svg-hero {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+.card-description {
+    width: 70%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--desaturated-blue);
+    padding-bottom: 50px;
+}
+
+.card-price {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card-price-annual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -80px;
+}
+
+.card-price-value {
+    color: var(--desaturated-blue);
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+}
+
+a {
+    color: var(--bright-blue);
+}
+
+a:hover {
+    color: var(--bright-blue-hover);
+    text-decoration: none;
+}
+
+.card-payment {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+button {
+    height: 50px;
+    width: 100%;
+    color: #FFF;
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--bright-blue-hover);
+}
+
+.card-payment-cancel {
+    color: var(--desaturated-blue);
+}
+
+.card-payment-cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+}
+
+.attribution {
+    margin-top: -25px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--bright-blue);
+}
