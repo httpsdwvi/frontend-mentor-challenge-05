@@ -130,19 +130,20 @@ button:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (width: 500px) {
     html {
-        min-height: 100vh;
         background: url('/images/pattern-background-mobile.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
-    
-    .card, .svg-hero {
+
+    .card,
+    .svg-hero {
         width: 95vw;
     }
 
 }
+
 .attribution {
     width: 100%;
     margin-top: -25px;
