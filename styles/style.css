@@ -131,6 +131,12 @@ button:hover {
 
 
 @media (max-width: 500px) {
+    html {
+        background: url('/images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
     .card, .svg-hero {
         width: 95vw;
     }
