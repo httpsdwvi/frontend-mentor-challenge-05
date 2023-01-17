@@ -48,11 +48,11 @@ html {
 .svg-hero {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .card-description {
@@ -60,7 +60,7 @@ h1 {
     text-align: center;
     font-size: 1rem;
     color: var(--desaturated-blue);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .card-price {
@@ -69,7 +69,10 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--very-pale-blue);
 }
 
 .card-price-annual {
@@ -130,7 +133,7 @@ button:hover {
 }
 
 
-@media (width: 500px) {
+@media (max-width: 500px) {
     html {
         background: url('/images/pattern-background-mobile.svg');
         background-repeat: no-repeat;
